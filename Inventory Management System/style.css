@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+body{
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);	
+    color: black;
+    background-attachment: fixed;  
+    background-position: center;
+}
+
+#bg-login{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.box-login{
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+}
+
+.box-login h2{
+    text-align: center;
+    color: #5b6574;
+    font-size: 24px;
+    padding: 0px 0 20px 0;
+    border-bottom: 1px solid #dee0e4;
+}
+
+.input-control{
+    position: relative;
+    left: 50px;
+    width: 300px;
+    height: 50px;
+    border: 1px solid #dee0e4;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+
+
+.btn{
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);	
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.2s;
+}
+
